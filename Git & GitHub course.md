@@ -27,6 +27,8 @@ ctrl + U -> Borra toda la línea
 F11 -> Muestra el escritorio
 command + shift + . -> Muestran archivos ocultos en finder
 code . -> Abre vsCode desde la terminal
+code -> Abre el archivo en code
+code nombreDelArchivo.txt -> Abre el archivo en code
 
 Crear un repositorio de Git y primer commit:
 git init(dentro del directorio del proyecto) -> Inicializa git en el proyecto
