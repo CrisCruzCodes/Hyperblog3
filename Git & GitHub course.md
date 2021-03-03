@@ -33,4 +33,11 @@ git init(dentro del directorio del proyecto) -> Inicializa git en el proyecto
 git add nombreDelArchivo.txt -> Agrega archivos
 git add . -> Agrega todos los archivos
 git rm --cached nombreDelArchivo.txt -> Borra el archivo
+git coonfig -> Muestra opciones de configuración de git
+git config --list -> Muestra la configuración actual de git
+- -> Un guión + la apreviación de la palabra (-g) 
+-- -> Dos guioones + la palabra completa (--global)
+git config --global -> Cambia configuración de git de manera global
+git config --local y git config -> Cambia la configuración de git de manera local (Solo para el repo en el que se está trabajando)
+git config --global user.name "Nombre" -> Cambia nombre
 
