@@ -85,3 +85,9 @@ Fusión de ramas con Git merge:
 
 Resolución de conflictos al hacer un merge:
 git merge master -> Fusiona la rama en la que se esta con master
+
+Uso de GitHub
+git remote add origin https://github.com/CrisCruzCodes2/Hyperblog2.git (Liga https para clonar) -> Agrega un origen remoto de nuestros archivos
+git remote -> Administra el conjunto de repositorios ("remotos") cuyas ramas rastrea.
+git remote -v -> Muestra la url remota 
+
