@@ -60,3 +60,7 @@ Volver en el tiempo en nuestro repositorio utilizando reset y checkout
 git reset commitabcxyz -> Vuelve al commit anterior indicado
 git reset --hard -> Vuelve todo al commit anterior
 git reset --soft -> Vuelve al commit anterior en el directorio, pero sigue en staging
+git log --stat -> Muestra los cambios específicos que se hicieron en los archivos a partir del commit
+git checkout -> Te lleva a la ramma o al commit indicado
+git checkout commitabcxyz nombreDelArchivo.txt -> Lleva a la versión del commit indicado de ese archivo
+git checkout master -> Lleva de vuelta a la última versión de ese archivo
