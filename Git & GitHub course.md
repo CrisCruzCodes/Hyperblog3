@@ -42,4 +42,8 @@ git config --list -> Muestra la configuración actual de git
 git config --global -> Cambia configuración de git de manera global
 git config --local y git config -> Cambia la configuración de git de manera local (Solo para el repo en el que se está trabajando)
 git config --global user.name "Nombre" -> Cambia nombre
+git log nombreDelArchivo.txt -> Muestra los commits del archivo
+git log -> Muestra los commits del repo
+git show nombreDelArchivo.txt -> Muestra los cambios del archivo
+
 
