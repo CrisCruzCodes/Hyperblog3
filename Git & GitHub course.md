@@ -45,5 +45,6 @@ git config --global user.name "Nombre" -> Cambia nombre
 git log nombreDelArchivo.txt -> Muestra los commits del archivo
 git log -> Muestra los commits del repo
 git show nombreDelArchivo.txt -> Muestra los cambios del archivo
+git  commit -> Crea el commit sin mensaje y abre vim para guardar el mensaje. Se ingresa el mensaje y se presiona esc + shift + zz para guardar y salir
 
 
