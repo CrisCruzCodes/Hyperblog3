@@ -78,3 +78,6 @@ git fetch -> Trae la última versión del rep remoto al repo local, pero no lo c
 git pull -> Crea un fetch y hace un merge con el directorio
 
 Introducción a las ramas o branches de Git:
+git checkout nombreDeRama -> Lleva al head de la rama (Su último commit)
+
+Fusión de ramas con Git merge:
