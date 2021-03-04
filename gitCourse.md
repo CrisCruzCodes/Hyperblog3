@@ -64,3 +64,17 @@ git log --stat -> Muestra los cambios específicos que se hicieron en los archiv
 git checkout -> Te lleva a la ramma o al commit indicado
 git checkout commitabcxyz nombreDelArchivo.txt -> Lleva a la versión del commit indicado de ese archivo
 git checkout master -> Lleva de vuelta a la última versión de ese archivo
+
+Git reset vs. Git rm:
+git rm --cached: Elimina los archivos del área de Staging y del próximo commit pero los mantiene en nuestro disco duro.
+git rm --force: Elimina los archivos de Git y del disco duro. Git siempre guarda todo, por lo que podemos acceder al registro de la existencia de los archivos, de modo que podremos recuperarlos si es necesario (pero debemos usar comandos más avanzados).
+git reset --soft: Borramos todo el historial y los registros de Git pero guardamos los cambios que tengamos en Staging, así podemos aplicar las últimas actualizaciones a un nuevo commit.
+git reset --hard: Borra todo. Todo todito, absolutamente todo. Toda la información de los commits y del área de staging se borra del historial.
+
+Flujo de trabajo básico con un repositorio remoto:
+git clone -> Clona el archivo de master al directorio local y crea la base de datos de todos los cambios historicos en el repositorio local
+git push -> Se envían los cambios del repo local al repo remoto
+git fetch -> Trae la última versión del rep remoto al repo local, pero no lo cambia en el directorio
+git pull -> Crea un fetch y hace un merge con el directorio
+
+Introducción a las ramas o branches de Git:
