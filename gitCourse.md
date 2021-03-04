@@ -82,3 +82,6 @@ git checkout nombreDeRama -> Lleva al head de la rama (Su último commit)
 
 Fusión de ramas con Git merge:
 (master)git merge -> Une 2 ramas. Si estando en cabecera hago merge con master manda la rama master a cabecera. Une los últimos commits de  cada rama
+
+Resolución de conflictos al hacer un merge:
+git merge master -> Fusiona la rama en la que se esta con master
