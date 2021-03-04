@@ -42,9 +42,21 @@ git config --list -> Muestra la configuración actual de git
 git config --global -> Cambia configuración de git de manera global
 git config --local y git config -> Cambia la configuración de git de manera local (Solo para el repo en el que se está trabajando)
 git config --global user.name "Nombre" -> Cambia nombre
+
+Analizar cambios en los archivos del proyecto:
 git log nombreDelArchivo.txt -> Muestra los commits del archivo
 git log -> Muestra los commits del repo
 git show nombreDelArchivo.txt -> Muestra los cambios del archivo
-git  commit -> Crea el commit sin mensaje y abre vim para guardar el mensaje. Se ingresa el mensaje y se presiona esc + shift + zz para guardar y salir
+git  commit -> Crea el commit sin mensaje y abre vim para guardar el mensaje. Se ingresa el mensaje sin comillas y se presiona esc + shift + zz -> para guardar y salir
+git diff commitabcxyz1 commitabcxyz2 -> Indica la diferencia entre los 2 commits indicados
 
+¿Qué es el staging y los repositorios? Ciclo de trabajo en git:
+1.Directorio 2.Staging 3.Repo local
+git init -> Se crea un área en memoria ram llamada staging, se crea el repositirio (.git)
+git add -> Manda el archivo a staging (tracked). Antes de git add (untracked)
+git commit -> Manda el archivo al repositorio
 
+Volver en el tiempo en nuestro repositorio utilizando reset y checkout
+git reset commitabcxyz -> Vuelve al commit anterior indicado
+git reset --hard -> Vuelve todo al commit anterior
+git reset --soft -> Vuelve al commit anterior en el directorio, pero sigue en staging
