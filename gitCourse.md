@@ -92,3 +92,4 @@ git remote -> Administra el conjunto de repositorios ("remotos") cuyas ramas ras
 git remote -v -> Muestra la url remota 
 git push origin master(main) -> Se envía al origen, la rama master (https://github.com/CrisCruzCodes2/Hyperblog2.git)
 
+Estoy haciendo una prueba para ver si puedo traer los cambios de main a mi rama cabecera
