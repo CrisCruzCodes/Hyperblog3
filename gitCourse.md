@@ -95,3 +95,4 @@ git push origin master(main) -> Se envía al origen, la rama master (https://git
 Estoy haciendo una prueba para ver si puedo traer los cambios de main a mi rama cabecera
 
 Otra prueba de git pull main en cabecera
+Estoy haciendo una prueba para ver en que orden queda este commit en master
