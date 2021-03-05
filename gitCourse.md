@@ -93,3 +93,5 @@ git remote -v -> Muestra la url remota
 git push origin master(main) -> Se envía al origen, la rama master (https://github.com/CrisCruzCodes2/Hyperblog2.git)
 
 Estoy haciendo una prueba para ver si puedo traer los cambios de main a mi rama cabecera
+
+Estoy haciendo una prueba para ver en que orden queda este commit en master
