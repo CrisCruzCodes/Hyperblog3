@@ -94,3 +94,5 @@ git push origin master(main) -> Se envía al origen, la rama master (https://git
 
 Yo soy el que hizo los cambios
 Estoy trabajando  en  mis cambios y de repente en  master remoto alguien hizo cambios y los bajo a mi rama cabecera
+
+Yo soy el que hizo los cambios2
