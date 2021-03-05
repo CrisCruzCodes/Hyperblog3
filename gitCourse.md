@@ -91,9 +91,3 @@ git remote add origin https://github.com/CrisCruzCodes2/Hyperblog2.git (Liga htt
 git remote -> Administra el conjunto de repositorios ("remotos") cuyas ramas rastrea.
 git remote -v -> Muestra la url remota 
 git push origin master(main) -> Se envía al origen, la rama master (https://github.com/CrisCruzCodes2/Hyperblog2.git)
-
-Yo soy el que hizo los cambios
-Estoy trabajando  en  mis cambios y de repente en  master remoto alguien hizo cambios y los bajo a mi rama cabecera
-
-Yo soy el que hizo los cambios2
-Estoy trabajando  en  mis cambios y de repente en  master remoto alguien hizo cambios y los bajo a mi rama cabecera2
