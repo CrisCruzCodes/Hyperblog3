@@ -93,3 +93,4 @@ git remote -v -> Muestra la url remota
 git push origin master(main) -> Se envía al origen, la rama master (https://github.com/CrisCruzCodes2/Hyperblog2.git)
 
 Yo soy el que hizo los cambios
+Estoy trabajando  en  mis cambios y de repente en  master remoto alguien hizo cambios y los bajo a mi rama cabecera
