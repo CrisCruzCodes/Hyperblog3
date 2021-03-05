@@ -93,3 +93,4 @@ git remote -v -> Muestra la url remota
 git push origin master(main) -> Se envía al origen, la rama master (https://github.com/CrisCruzCodes2/Hyperblog2.git)
 
 remoto después
+trabajando primero
