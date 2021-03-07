@@ -108,3 +108,4 @@ git push origin :refs/tags/(nombre del tag) ->  Borra el tag en remoto
 Manejo de ramas en github
 git show-branch -> Muestra cuales son las ramas que existen y su historia
 git show-branch --all -> Muestra cuales son las ramas que existen y su historia pero con mas detalles
+Se puede utilizar git push origin (rama) desde otra rama (ejemplo: Enviar rama1 desde rama2)
