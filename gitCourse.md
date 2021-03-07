@@ -101,4 +101,6 @@ git log --all --graph --decorate  --oneline ->  Muestra una versión gráfica co
 Como crear un alias:
 alias tree="git log --all --graph --decorate --oneline"
 Alias con git: $ git config --global alias.last 'log -1 HEAD' -> git last (Muestra el último commit)
-git tag -a v0.1 -m 
+git tag -a v0.1 -m "Nombre del tag" -> Crea una versión del repo por medio de un tag
+git tag -d (nombre del tag)  -> Borra  el tag  en local
+git push origin :refs/tags/(nombre del tag) ->  Borra el tag en remoto
