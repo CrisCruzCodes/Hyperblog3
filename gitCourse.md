@@ -104,3 +104,7 @@ Alias con git: $ git config --global alias.last 'log -1 HEAD' -> git last (Muest
 git tag -a v0.1 -m "Nombre del tag" -> Crea una versión del repo por medio de un tag
 git tag -d (nombre del tag)  -> Borra  el tag  en local
 git push origin :refs/tags/(nombre del tag) ->  Borra el tag en remoto
+
+Manejo de ramas en github
+git show-branch -> Muestra cuales son las ramas que existen y su historia
+git show-branch --all -> Muestra cuales son las ramas que existen y su historia pero con mas detalles
