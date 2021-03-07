@@ -1,2 +1,0 @@
-# Hyperblog2
-Curso
