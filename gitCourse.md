@@ -93,3 +93,11 @@ git remote -> Administra el conjunto de repositorios ("remotos") cuyas ramas ras
 git remote -v -> Muestra la url remota 
 git push origin master(main) -> Envía al origen la rama master (https://github.com/CrisCruzCodes2/Hyperblog2.git)
 git merge origin/main -> Hace un merge con la rama indicada en  el repositorio remoto (Es lo que hace git pull después del git fetch)
+
+Tags y versiones en Git y Github
+git log --all -> Muestra toda la historia del repo
+git log --all --graph -> Muestra una versión gráfica de la historia del repo
+git log --all --graph --decorate  --oneline ->  Muestra una versión gráfica comprimida  de la historia del repo
+Como crear un alias:
+alias tree="git log --all --graph --decorate --oneline"
+Alias con git: $ git config --global alias.last 'log -1 HEAD' -> git last (Muestra el último commit)
