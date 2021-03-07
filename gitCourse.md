@@ -1,4 +1,5 @@
 Terminal & shortcuts:
+Si el nombre de una carpeta esmpieza con . significa que es una carpeta oculta
 pwd -> Te indica en que carpeta te encuentras
 En linux no existe C:. En linux el root donde arranca el sistema de archivos es /
 cd -> Permite dirigirse a una carpeta (change directory). Si se teclea solo te lleva al home user ~
@@ -91,5 +92,4 @@ git remote add origin https://github.com/CrisCruzCodes2/Hyperblog2.git (Liga htt
 git remote -> Administra el conjunto de repositorios ("remotos") cuyas ramas rastrea.
 git remote -v -> Muestra la url remota 
 git push origin master(main) -> Envía al origen la rama master (https://github.com/CrisCruzCodes2/Hyperblog2.git)
-
-Si el nombre de una carpeta esmpieza con . significa que es una carpeta oculta
+git merge origin/main -> Hace un merge con la rama indicada en  el repositorio remoto (Es lo que hace git pull después del git fetch)
