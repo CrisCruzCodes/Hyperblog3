@@ -90,4 +90,6 @@ Uso de GitHub
 git remote add origin https://github.com/CrisCruzCodes2/Hyperblog2.git (Liga https para clonar) -> Agrega un origen remoto de nuestros archivos
 git remote -> Administra el conjunto de repositorios ("remotos") cuyas ramas rastrea.
 git remote -v -> Muestra la url remota 
-git push origin master(main) -> Se envía al origen, la rama master (https://github.com/CrisCruzCodes2/Hyperblog2.git)
+git push origin master(main) -> Envía al origen la rama master (https://github.com/CrisCruzCodes2/Hyperblog2.git)
+
+Si el nombre de una carpeta esmpieza con . significa que es una carpeta oculta
